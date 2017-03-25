@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgba(0,0,0,0.1);
+    min-width: 1000px;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+nav img {
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+
+}
+nav .headLink {
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+}
+nav .headLink li {
+    float: left;
+    margin-left: 30px;
+    color: rgba(0,0,0,1);
+}
+nav .headLink li a {
+    color: white;
+    text-decoration:none;
+}
+
+nav .headLink li a:hover {color: dodgerblue;}
+nav .headLink li a:active {color: dodgerblue;}
+
+.article1, .article2, .article3, .article4, .sidebar {
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px #888888;
+}
+h2 {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+h3 {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgba(0,0,0,0.7);
+}
+h4 {
+    padding-left: 20px;
+    padding-top: 15px;
+    color: rgba(0,0,0,0.5);
+}
+p {
+    text-indent: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bigPic {
+    width: 500px;
+    height: 450px;
+}
+.p2 {
+    padding-bottom: 40px;
+}
+
+.article2 ul {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.article2 ul li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.pictures {
+    margin-left: 80px;
+    padding-bottom: 40px;
+}
+.pictures .box {
+    width: 250px;
+    text-align: center;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+.pictures .box p {
+    text-indent: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.pictures .box img {
+    width: 200px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+.article4 ol {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.article4 ol li {
+    line-height: 30px;
+}
+
+.article4 .table {
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.article4 .table p {
+    text-indent: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.article4 .table table {
+    width: 90%;
+    border-collapse:collapse;
+}
+.article4 table tr {
+    line-height: 30px;
+}
+.article4 table th {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border: 1px solid #888888;
+    text-align: left;
+    padding-left: 10px;
+}
+.article4 table td {
+    color: black;
+    border: 1px solid #888888;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.article4 table .tableFooter td {
+    background-color: rgba(0,0,0,0.4);
+}
+
+form {
+    width: 90%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+form .email input, form .password input {
+    height: 25px;
+}
+form .note {
+    margin-top: 10px;
+    margin-left: 120px;
+    color: darkgrey;
+}
+form .email {
+    margin-left: 25%;
+}
+form .password {
+    margin-top: 30px;
+    margin-left: 25%;
+}
+form .sex {
+    margin-top: 30px;
+    margin-left: 30%;
+}
+form .city {
+    margin-top: 10px;
+    margin-left: 30%;
+}
+form .city select {
+    height: 30px;
+    width: 60px;
+}
+form .hobby {
+    margin-top: 10px;
+    margin-left: 30%;
+}
+form .infoText {
+    margin-top: 10px;
+    margin-left: 25%;
+}
+form .infoText textarea {
+    margin-left: 5px;
+    font-size: 20px;
+}
+form .submit {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+}
