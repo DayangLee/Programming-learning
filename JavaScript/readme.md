@@ -3,8 +3,8 @@ JavaScript学习：
     零基础JavaScript编码（一）<br>
     代码：  [dome1](https://github.com/DayangLee/Programming-learning/blob/master/JavaScript/demo1)<br>
     效果展示： [dome1展示](https://dayanglee.github.io/Programming-learning/JavaScript/demo1/index.html)<br>
-    任务目的
-    <ol>
+    任务目的：
+    <ol>
     <li>初步明白JavaScript的简单基本语法，如变量、函数</li>
     <li>初步了解JavaScript的事件是什么</li>
     <li>初步了解JavaScript中的DOM是什么</li>
