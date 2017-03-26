@@ -36,7 +36,7 @@ nav .headLink li a {
 nav .headLink li a:hover {color: dodgerblue;}
 nav .headLink li a:active {color: dodgerblue;}
 
-.article1, .article2, .article3, .article4, .sidebar {
+.article1, .article2, .article3, .article4, aside {
     background-color: white;
     width: 90%;
     margin: 20px auto;
@@ -152,59 +152,51 @@ p {
     background-color: rgba(0,0,0,0.4);
 }
 
-form {
-    width: 90%;
-    margin: 30px auto;
-    padding-bottom: 30px;
-    font-size: 16px;
-}
-form .email input, form .password input {
-    height: 25px;
-}
-form .note {
-    margin-top: 10px;
-    margin-left: 120px;
-    color: darkgrey;
-}
-form .email {
-    margin-left: 25%;
-}
-form .password {
-    margin-top: 30px;
-    margin-left: 25%;
-}
-form .sex {
-    margin-top: 30px;
-    margin-left: 30%;
-}
-form .city {
-    margin-top: 10px;
-    margin-left: 30%;
-}
-form .city select {
-    height: 30px;
-    width: 60px;
-}
-form .hobby {
-    margin-top: 10px;
-    margin-left: 30%;
-}
-form .infoText {
-    margin-top: 10px;
-    margin-left: 25%;
-}
-form .infoText textarea {
-    margin-left: 5px;
-    font-size: 20px;
-}
-form .submit {
-    width: 100%;
+
+.form-input {
     height: 40px;
-    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.form-input .input {
+    display: block;
+    width: 200px;
+}
+
+.form-input label {
+    height: 100%;
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 12px;
+}
+.form-input select {
+    width: 80px;
+}
+.infoText {
+    height: 170px;
+}
+.form-input textarea {
+    height: 100px;
+    width: 300px;
+}
+
+aside form .submit {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    height: 40px;
+    line-height: 40px;
     border-radius: 10px;
     font-size: 22px;
     color: white;
-    background-color: dodgerblue;
+    background-color: #3458cf;
+}
+
+form .note {
+    font-size: 16px;
+    color: darkgrey;
+    text-indent: 0;
 }
 
 footer {

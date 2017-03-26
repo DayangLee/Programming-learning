@@ -135,36 +135,36 @@
         </div>
     </div>
 
-    <div class="sidebar">
+
+    <aside>
         <h3>侧栏注册窗口标题</h3>
         <form>
-            <div class="email">
+            <div class="form-input">
+                <label for="email">请输入邮箱地址：</label>
+                <input type="text" name="email" placeholder="这是一个文本输入框" id="email" /><br>
+                <p class="note">邮箱地址请按要求格式输入</p>
+            </div>
+
+            <div class="form-input" style="margin-top: 20px;">
+                <label for="password1">请输入密码：</label>
+                <input type="text" name="password1" placeholder="这是一个文本输入框" id="password1" />
+            </div>
+            <div class="form-input" style="margin-top: -10px;">
+                <label for="password2">请重复输入密码：</label>
+                <input type="text" name="password2" placeholder="这是一个文本输入框" id="password2" /><br>
+                <p class="note">密码请为6-16位英文或数字</p>
+            </div>
+
+            <div class="form-input" style="margin-top: 20px;">
+                <label>性别：</label>
                 <div>
-                    请输入邮箱地址&nbsp;
-                    <input type="text" name="email" placeholder="这是一个文本输入框">
+                    <input type="radio" name="sex" value="male" checked />男
+                    <input type="radio" name="sex" value="female" style="margin-left: 10px;"/>女
                 </div>
-                <div class="note">邮箱地址请按要求格式输入</div>
-            </div>
-            <div class="password">
-                <div style="margin-left: 32px;">
-                    请输入密码&nbsp;
-                    <input type="password" name="password1" value="123456">
-                </div>
-                <div style="margin-top: 10px;">
-                    请重复输入密码&nbsp;
-                    <input type="password" name="password2" value="123456">
-                </div>
-                <div class="note">密码请为6-16位英文或数字</div>
             </div>
 
-            <div class="sex">
-                <span style="margin-left: 10px;">性别&nbsp;</span>
-                <input type="radio" name="sex" value="male" checked style="">男
-                <input type="radio" name="sex" value="female" style="margin-left: 10px;">女
-            </div>
-
-            <div class="city">
-                <span style="margin-left: 10px;">城市&nbsp;</span>
+            <div class="form-input">
+                <label>城市：</label>
                 <select name="city">
                     <option value="beijing">北京</option>
                     <option value="shanghai">上海</option>
@@ -173,23 +173,23 @@
                 </select>
             </div>
 
-            <div class="hobby">
-                <span style="margin-left: 10px;">爱好&nbsp;</span>
+            <div class="form-input">
+                <label>爱好：</label>
                 <input type="checkbox" name="hobby" value="sport">运动
                 <input type="checkbox" name="hobby" value="art" style="margin-left: 10px;">艺术
                 <input type="checkbox" name="hobby" value="science" style="margin-left: 10px;">科学
             </div>
 
-            <div class="infoText">
-                <span style="float: left;margin-left: 40px;">个人描述&nbsp;</span>
+            <div class="form-input infoText">
+                <label>个人描述：</label>
                 <textarea rows="8" cols="40">这是一个多行输入框，输入您的个人描述。</textarea>
             </div>
 
-            <input class="submit" type="submit" value="确认提交">
+            <input type="submit" value="确认提交" class="submit">
         </form>
-    </div>
+    </aside>
 
-    <footer>版权所有@</footer>
+    <footer>版权所有&copy;</footer>
 
 </body>
 </html>
