@@ -10,8 +10,8 @@ JavaScript学习：
 
 > * demo2
     零基础JavaScript编码（二）<br>
-    代码：  [dome1](https://github.com/DayangLee/Programming-learning/blob/master/JavaScript/demo2)<br>
-    效果展示： [dome1展示](https://dayanglee.github.io/Programming-learning/JavaScript/demo2/index.html)<br>
+    代码：  [dome2](https://github.com/DayangLee/Programming-learning/blob/master/JavaScript/demo2)<br>
+    效果展示： [dome2展示](https://dayanglee.github.io/Programming-learning/JavaScript/demo2/index.html)<br>
  任务目的：<ol><li>在上一任务基础上继续JavaScript的体验</li>
     <li>学习JavaScript中的if判断语法，for循环语法</li>
     <li>学习JavaScript中的数组对象</li>
