@@ -41,4 +41,5 @@
 <li>前端 MVC、MVVM</li>
 <li>[HTTP协议的状态消息](http://www.jianshu.com/p/cf096de05208)</li>
 <li>[JavaScript定时器](https://juejin.im/entry/58cdffa0ac502e00589b451f)</li>
+<li>[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")</li>
 </ul>
