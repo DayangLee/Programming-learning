@@ -14,7 +14,7 @@
 <li>null 和 undefined</li>
 <li>一个通用的事件侦听器函数</li>
 <li>.map(parseInt)</li>
-<li>事件的概念，IE与火狐的事件机制的区别，如何阻止冒泡</li>
+<li>[事件的概念，IE与火狐的事件机制的区别，如何阻止冒泡](https://domy.gitbooks.io/javascript/content/chapter9-1.html)</li>
 <li>闭包(closure)</li>
 <li>"use strict"</li>
 <li>new 操作符</li>
@@ -39,5 +39,6 @@
 <li>Canvas和SVG的比较</li>
 <li>JavaScript 中的模块规范 CommonJS、AMD、CMD</li>
 <li>前端 MVC、MVVM</li>
-<li>HTTP协议的状态消息</li>
+<li>[HTTP协议的状态消息](http://www.jianshu.com/p/cf096de05208)</li>
+<li>[JavaScript定时器](https://juejin.im/entry/58cdffa0ac502e00589b451f)</li>
 </ul>
