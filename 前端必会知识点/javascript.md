@@ -1,23 +1,13 @@
-<ul>
-<li>JS的基本数据类型</li>
-`6 种 原始类型:
-  Boolean
-  Null
-  Undefined
-  Number
-  String
-  Symbol (ECMAScript 6 新定义)`<br>
-`和 Object`
-<li>[JS的内置对象](http://www.cnblogs.com/liuluteresa/p/6413988.html)</li>
+* [JS的基本数据类型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Data_structures)
+* [JS的内置对象](http://www.cnblogs.com/liuluteresa/p/6413988.html)
+* [JavaScript基本代码规范](http://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html) 
+* [call和apply的作用与区别](http://blog.csdn.net/myhahaxiao/article/details/6952321)
+* [数组的基本概念及操作](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [JavaScript this的原理](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this) 
+* [JavaScript原型与原型链](https://github.com/creeperyang/blog/issues/9)
+* [JavaScript的继承](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+* [JavaScript内存空间](https://juejin.im/entry/589c29a9b123db16a3c18adf)
 
-<li>JavaScript的基本代码规范</li>
-<li>call和apply的作用与区别</li>
-<li>push()-pop()-shift()-unshift()</li>
-<li>屏幕的媒体查询代码</li>
-<li>javascript this工作原理</li>
-<li>JavaScript 原型，原型链</li>
-<li>JavaScript 的几种类型的值及其内存图</li>
-<li>JavaScript 继承的实现</li>
 <li>JavaScript 的几种创建对象的方式</li>
 <li>eval</li>
 <li>null 和 undefined</li>
@@ -79,4 +69,4 @@
 <li> js的Element和Node的区别</li>
 <li> 事件流 </li>
 <li> promise </li>
-</ul>
+
