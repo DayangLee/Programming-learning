@@ -12,9 +12,9 @@
 <li>JavaScript 的几种创建对象的方式</li>
 <li>eval</li>
 <li>null 和 undefined</li>
-<li> [一个通用的事件侦听器函数](http://blog.csdn.net/u011127925/article/details/47150435)</li>
+<li>[一个通用的事件侦听器函数] (http://blog.csdn.net/u011127925/article/details/47150435)</li>
 <li>.map(parseInt)</li>
-<li> [事件的概念，IE与火狐的事件机制的区别，如何阻止冒泡](https://domy.gitbooks.io/javascript/content/chapter9-1.html)</li>
+<li>  [事件的概念，IE与火狐的事件机制的区别，如何阻止冒泡] (https://domy.gitbooks.io/javascript/content/chapter9-1.html)</li>
 <li>闭包(closure)</li>
 <li>"use strict"</li>
 <li>new 操作符</li>
