@@ -1,7 +1,6 @@
 <ul>
 <li>JS的基本数据类型</li>
-`
-6 种 原始类型:
+`6 种 原始类型:
   Boolean
   Null
   Undefined
@@ -11,17 +10,14 @@
 `和 Object`
 <li>JS的内置对象</li>
 `按类别分类标准对象`<br>
-`
-值属性
+`值属性
 这些全局属性返回一个简单的值；他们没有属性和方法。
 
 Infinity
 NaN
 undefined
-null literal
-`<br>
-`
-函数属性
+null literal`<br>
+`函数属性
 执行特定功能并返回结果的全局方法。
 
 eval()
@@ -36,8 +32,8 @@ encodeURI()
 encodeURIComponent()
 escape()
 unescape()`<br>
-`
-基本对象
+
+`基本对象
 基础的语言对象、方法对象和错误对象。
 
 Object
@@ -52,23 +48,21 @@ ReferenceError
 SyntaxError
 TypeError
 URIError`<br>
-`
-数字和日期
+
+`数字和日期
 用于处理数字、日期和数学运算的对象。
 
 Number
 Math
-Date
-`<br>
-`
-文本处理
+Date`<br>
+
+`文本处理
 用于处理文本的对象。
 
 String
-RegExp
-`<br>
-`
-索引集合
+RegExp`<br>
+
+`索引集合
 根据索引来排列的集合，类似于数组的对象。
 
 Array
@@ -80,19 +74,17 @@ Uint16Array
 Int32Array
 Uint32Array
 Float32Array
-Float64Array
-`<br>
-`
-键控集合
+Float64Array`<br>
+
+`键控集合
 根据键来保存对象的集合，遍历时会根据放入的顺序。
 
 Map
 Set
 WeakMap
-WeakSet
-`<br>
-`
-矢量集合
+WeakSet`<br>
+
+`矢量集合
 SIMD 矢量数据类型可以把数据整合到一个序列中。
 
 SIMD
@@ -107,43 +99,41 @@ SIMD.Uint32x4
 SIMD.Bool8x16
 SIMD.Bool16x8
 SIMD.Bool32x4
-SIMD.Bool64x2
-`<br>
-`
-结构化数据
+SIMD.Bool64x2`<br>
+
+`结构化数据
 这种数据类型可以用来表示结构化数据缓存（structured data buffers）或者JSON数据，并允许与其进行交互。
 
 ArrayBuffer
 SharedArrayBuffer
 Atomics
 DataView
-JSON
-`<br>
-`
-控制抽象对象
+JSON`<br>
+
+`控制抽象对象
 Promise
 Generator
 GeneratorFunction
-AsyncFunction
-`<br>`
-反射
+AsyncFunction`<br>
+
+`反射
 Reflect
-Proxy
-`<br>`
-国际化
+Proxy`<br>
+
+`国际化
 ECMA脚本的多语言附加组件。
 
 Intl
 Intl.Collator
 Intl.DateTimeFormat
-Intl.NumberFormat
-`<br>`
-非标准对象
+Intl.NumberFormat`<br>
+
+`非标准对象
 Iterator
 ParallelArray
-StopIteration
-`<br>`
-其他
+StopIteration`<br>
+
+`其他
 arguments`
 <li>JavaScript的基本代码规范</li>
 <li>call和apply的作用与区别</li>
