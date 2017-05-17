@@ -2,6 +2,7 @@
 * [JS的内置对象](http://www.cnblogs.com/liuluteresa/p/6413988.html)
 * [JavaScript基本代码规范](http://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html) 
 * [call和apply的作用与区别](http://blog.csdn.net/myhahaxiao/article/details/6952321)
+* [对象的基本概念及操作](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object)
 * [数组的基本概念及操作](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [字符串的基本操作](https://developer.mozilla.org/cn/docs/Web/JavaScript/Reference/Global_Objects/String)
 * [JavaScript this的原理](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this) 
@@ -22,11 +23,11 @@
 * [json的概念和方法](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * [Ajax概念及创建](http://javascript.ruanyifeng.com/bom/ajax.html)
 * [同步和异步](https://segmentfault.com/a/1190000004322358)
+* [异步加载JS的几种方式](http://www.jianshu.com/p/055b0ea0d03c)
 * [跨域问题及解决](https://leohxj.gitbooks.io/front-end-database/cross-domain/index.html)
 * [ECMAScript6](https://blog.oyanglul.us/javascript/essential-ecmascript6.html)
 * [ES6的class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
 * [Base64的编码与解码](https://my.oschina.net/goal/blog/201032)
-* [异步加载JS的几种方式](http://www.jianshu.com/p/055b0ea0d03c)
 * [document.write 和 innerHTML 的区别](https://www.w3schools.com/js/js_htmldom_html.asp)
 * [基本的DOM操作](http://harttle.com/2015/10/01/javascript-dom-api.html)
 * [为什么说DOM操作很慢](https://leozdgao.me/why-dom-slow/)
@@ -34,6 +35,7 @@
 * [JSON](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * [jQuery.extend 与 jQuery.fn.extend](http://www.jianshu.com/p/d1055c14c325)
 * [jQuery性能优化](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices.html)
+* [前端开发优化](https://leohxj.gitbooks.io/front-end-database/preference/index.html)
 * [判断当前脚本运行在浏览器还是 node 环境](https://segmentfault.com/q/1010000003054375)
 * [检测浏览器版本](http://www.w3school.com.cn/js/js_browser.asp)
 * [JavaScript 中的模块规范 CommonJS、AMD、CMD](https://my.oschina.net/felumanman/blog/263330?p=1)
@@ -42,33 +44,16 @@
 * [JavaScript定时器](https://juejin.im/entry/58cdffa0ac502e00589b451f)
 * [JavaScript的深复制和浅复制](https://www.zhihu.com/question/23031215)
 * [换行问题](https://segmentfault.com/a/1190000003936301)
-
-<li>JavaScript中对一个对象进行深度clone</li>
-<li>控制alert中的换行</li>
-<li>URL参数解析</li>
-<li>控制网页在网络传输过程中的数据量的方法</li>
-<li>实现Array.prototype.forEach的方法</li>
-<li>ECMAScript 5中的Object.getPrototypeOf() 函数实现</li>
-<li>arguments</li>
-<li>获取光标的位置</li>
-<li>兼容浏览器的获取指定元素（elem）的样式属性（name）的方法</li>
-<li>前端开发的优化问题</li>
-<li>AJAX请求中CALLBACK的种类</li>
-<li>异步加载js方案</li>
-<li>数组去重</li>
-<li>正则表达式</li>
-<li>排序算法</li>
-<li>判断一个对象是否为数组类型的五种方法</li>
-<li>自定义Object.create()</li>
-<li>深克隆原理</li>
-<li>如果浏览器不支持every属性,every的实现原理</li>
-<li>如果浏览器不支持some属性，some的实现原理</li>
-<li>浏览器不支持map属性,map的实现原理</li>
-<li>如果浏览器不支持reduce属性,reduce的实现原理</li>
-<li>如果浏览器不支持bind属性, bind函数的实现原理</li>
-<li> [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)</li>
-<li> [JavaScript类型转换](http://www.cnblogs.com/coco1s/p/6509141.html)</li>
-<li> js的Element和Node的区别</li>
-<li> 事件流 </li>
-<li> promise </li>
-
+* [URL结构](http://www.jianshu.com/p/2c097bdb121e)
+* [URL解析](http://www.w3cschool.cn/json/1koy1piy.html)
+* [从输入URL到页面加载的全过程](http://www.jianshu.com/p/71cf7f69eca8)
+* [arguments](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/arguments)
+* [数组去重](https://github.com/hanzichi/underscore-analysis/issues/9)
+* [正则表达式](http://www.runoob.com/regexp/regexp-tutorial.html)
+* [排序算法](https://segmentfault.com/a/1190000008712244)
+* [判断一个对象是否为数组类型的五种方法](https://segmentfault.com/a/1190000006150186)
+* [Object.create()和new](https://github.com/Zaynex/Zaynex.github.io/wiki/JS%E4%B8%AD%E7%9A%84new%E5%92%8CES5%E4%B8%AD%E7%9A%84Object.create)
+* [操纵浏览器的记录](https://developer.mozilla.org/zh-CN/docs/DOM/Manipulating_the_browser_history)
+* [promise](https://leohxj.gitbooks.io/front-end-database/javascript-advance/promise.html)
+* [JavaScript类型转换](http://www.cnblogs.com/coco1s/p/6509141.html)
+* [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)
