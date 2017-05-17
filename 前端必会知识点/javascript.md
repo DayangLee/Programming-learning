@@ -19,12 +19,19 @@
 * [对象的基本概念及操作](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object)
 * [对象的属性描述符](http://www.jianshu.com/p/19529527df80#)
 * [json的概念和方法](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+* [Ajax概念及创建](http://javascript.ruanyifeng.com/bom/ajax.html)
+* [同步和异步](https://segmentfault.com/a/1190000004322358)
+* [跨域问题及解决](https://leohxj.gitbooks.io/front-end-database/cross-domain/index.html)
+* [ECMAScript6](https://blog.oyanglul.us/javascript/essential-ecmascript6.html)
+* [ES6的class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
+* [Base64的编码与解码](https://my.oschina.net/goal/blog/201032)
+* [异步加载JS的几种方式](http://www.jianshu.com/p/055b0ea0d03c)
+* [document.write 和 innerHTML 的区别](https://www.w3schools.com/js/js_htmldom_html.asp)
+* [基本的DOM操作](http://harttle.com/2015/10/01/javascript-dom-api.html)
+* [为什么说DOM操作很慢](https://leozdgao.me/why-dom-slow/)
+* [内存泄漏]()
+* [浏览器加载、解析、渲染](http://www.jianshu.com/p/e141d1543143)
 
-<li>Ajax 的概念及创建</li>
-<li>同步和异步</li>
-<li>跨域问题的解决</li>
-<li>ECMAScript6</li>
-<li>ECMAScript6的class</li>
 <li>异步加载 JS 的几种方式</li>
 <li>document.write 和 innerHTML 的区别</li>
 <li>DOM 操作—-添加、移除、移动、复制、创建和查找节点</li>
