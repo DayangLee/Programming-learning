@@ -1,4 +1,5 @@
 * [Viewport](http://ourjs.com/detail/54c73ba2232227083e00001a)
+* [浏览器加载、解析、渲染](http://www.jianshu.com/p/e141d1543143)
 <ul>
 <li>Doctype作用</li>
 <li>严格模式与混杂模式</li>
