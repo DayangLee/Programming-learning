@@ -7,18 +7,19 @@
 * [JavaScript原型与原型链](https://github.com/creeperyang/blog/issues/9)
 * [JavaScript的继承](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [JavaScript内存空间](https://juejin.im/entry/589c29a9b123db16a3c18adf)
+* [JavaScript创建对象的方式](https://github.com/huangzilong/Notes/issues/8)
+* [eval](http://www.cnblogs.com/artwl/archive/2011/09/07/2169680.html)
+* [null和undefined](http://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html)
+* [一个通用的事件侦听器函数](http://blog.csdn.net/u011127925/article/details/47150435)
+* [parseInt](http://www.cnblogs.com/xuan52rock/p/4460926.html)
+* [事件的概念，IE与火狐的事件机制的区别，如何阻止冒泡](https://domy.gitbooks.io/javascript/content/chapter9-1.html)
+* [闭包](http://www.cnblogs.com/frankfang/archive/2011/08/03/2125663.html)
+* ["use strict"](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)
+* [new操作符](http://warjiang.github.io/devcat/2016/05/12/JS%E4%B8%ADnew%E5%88%B0%E5%BA%95%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88/) 
+* [对象的基本概念及操作](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object)
+* [对象的属性描述符](http://www.jianshu.com/p/19529527df80#)
+* [json的概念和方法](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-<li>JavaScript 的几种创建对象的方式</li>
-<li>eval</li>
-<li>null 和 undefined</li>
-<li>[一个通用的事件侦听器函数] (http://blog.csdn.net/u011127925/article/details/47150435)</li>
-<li>.map(parseInt)</li>
-<li>  [事件的概念，IE与火狐的事件机制的区别，如何阻止冒泡] (https://domy.gitbooks.io/javascript/content/chapter9-1.html)</li>
-<li>闭包(closure)</li>
-<li>"use strict"</li>
-<li>new 操作符</li>
-<li>hasOwnProperty</li>
-<li>JSON</li>
 <li>Ajax 的概念及创建</li>
 <li>同步和异步</li>
 <li>跨域问题的解决</li>
