@@ -1,7 +1,7 @@
 * [Viewport](http://ourjs.com/detail/54c73ba2232227083e00001a)
 * [浏览器加载、解析、渲染](http://www.jianshu.com/p/e141d1543143)
 * [Canvas和SVG的比较](http://www.w3school.com.cn/html5/html_5_canvas_vs_svg.asp)
-
+* [换行问题](https://segmentfault.com/a/1190000003936301)
 <ul>
 <li>Doctype作用</li>
 <li>严格模式与混杂模式</li>
