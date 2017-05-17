@@ -33,15 +33,9 @@
 * [JSON](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * [jQuery.extend 与 jQuery.fn.extend](http://www.jianshu.com/p/d1055c14c325)
 * [jQuery性能优化](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices.html)
-* [判断当前脚本运行在浏览器还是 node 环境]()
+* [判断当前脚本运行在浏览器还是 node 环境](https://segmentfault.com/q/1010000003054375)
+* [检测浏览器版本](http://www.w3school.com.cn/js/js_browser.asp)
 
-<li>数组与json 字符串的转化</li>
-<li>jQuery.extend 与 jQuery.fn.extend</li>
-<li>jQuery 性能的优化</li>
-<li>jQuery 与 jQuery UI </li>
-<li>判断当前脚本运行在浏览器还是 node 环境</li>
-<li>用js实现千位分隔符</li>
-<li>检测浏览器版本的方式</li>
 <li>Canvas和SVG的比较</li>
 <li> [JavaScript 中的模块规范 CommonJS、AMD、CMD](https://my.oschina.net/felumanman/blog/263330?p=1)</li>
 <li>前端 MVC、MVVM</li>
