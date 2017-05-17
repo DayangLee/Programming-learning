@@ -29,13 +29,12 @@
 * [document.write 和 innerHTML 的区别](https://www.w3schools.com/js/js_htmldom_html.asp)
 * [基本的DOM操作](http://harttle.com/2015/10/01/javascript-dom-api.html)
 * [为什么说DOM操作很慢](https://leozdgao.me/why-dom-slow/)
-* [内存泄漏]()
-* [浏览器加载、解析、渲染](http://www.jianshu.com/p/e141d1543143)
+* [内存泄漏](http://octman.com/blog/2016-06-28-four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
+* [JSON](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+* [jQuery.extend 与 jQuery.fn.extend](http://www.jianshu.com/p/d1055c14c325)
+* [jQuery性能优化](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices.html)
+* [判断当前脚本运行在浏览器还是 node 环境]()
 
-<li>异步加载 JS 的几种方式</li>
-<li>document.write 和 innerHTML 的区别</li>
-<li>DOM 操作—-添加、移除、移动、复制、创建和查找节点</li>
-<li>内存泄漏</li>
 <li>数组与json 字符串的转化</li>
 <li>jQuery.extend 与 jQuery.fn.extend</li>
 <li>jQuery 性能的优化</li>
