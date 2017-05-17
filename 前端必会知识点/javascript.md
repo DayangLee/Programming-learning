@@ -3,6 +3,7 @@
 * [JavaScript基本代码规范](http://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html) 
 * [call和apply的作用与区别](http://blog.csdn.net/myhahaxiao/article/details/6952321)
 * [数组的基本概念及操作](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [字符串的基本操作](https://developer.mozilla.org/cn/docs/Web/JavaScript/Reference/Global_Objects/String)
 * [JavaScript this的原理](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this) 
 * [JavaScript原型与原型链](https://github.com/creeperyang/blog/issues/9)
 * [JavaScript的继承](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
@@ -35,13 +36,13 @@
 * [jQuery性能优化](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices.html)
 * [判断当前脚本运行在浏览器还是 node 环境](https://segmentfault.com/q/1010000003054375)
 * [检测浏览器版本](http://www.w3school.com.cn/js/js_browser.asp)
+* [JavaScript 中的模块规范 CommonJS、AMD、CMD](https://my.oschina.net/felumanman/blog/263330?p=1)
+* [前端MVC、MVVM](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
+* [HTTP协议的状态消息](http://www.jianshu.com/p/cf096de05208)
+* [JavaScript定时器](https://juejin.im/entry/58cdffa0ac502e00589b451f)
+* [JavaScript的深复制和浅复制](https://www.zhihu.com/question/23031215)
+* [换行问题](https://segmentfault.com/a/1190000003936301)
 
-<li>Canvas和SVG的比较</li>
-<li> [JavaScript 中的模块规范 CommonJS、AMD、CMD](https://my.oschina.net/felumanman/blog/263330?p=1)</li>
-<li>前端 MVC、MVVM</li>
-<li> [HTTP协议的状态消息](http://www.jianshu.com/p/cf096de05208)</li>
-<li> [JavaScript定时器](https://juejin.im/entry/58cdffa0ac502e00589b451f)</li>
-<li>字符串截取</li>
 <li>JavaScript中对一个对象进行深度clone</li>
 <li>控制alert中的换行</li>
 <li>URL参数解析</li>
