@@ -2,15 +2,16 @@
 * [浏览器加载、解析、渲染](http://www.jianshu.com/p/e141d1543143)
 * [Canvas和SVG的比较](http://www.w3school.com.cn/html5/html_5_canvas_vs_svg.asp)
 * [换行问题](https://segmentfault.com/a/1190000003936301)
+* [Element和Node的区别](http://www.jianshu.com/p/695b5c78a7ca)
+* [常见的浏览器内核](http://www.cnblogs.com/fullhouse/archive/2011/12/19/2293455.html)
+* [HTML5的离线存储](https://segmentfault.com/a/1190000000732617)
 <ul>
 <li>Doctype作用</li>
 <li>严格模式与混杂模式</li>
 <li>一个网页从开始请求道最终显示的完整过程</li>
 <li>行内元素、块级元素、空(void)元素</li>
-<li> [浏览器内核](http://www.cnblogs.com/fullhouse/archive/2011/12/19/2293455.html)</li>
 <li>html5新特性及HTML5新标签的浏览器兼容</li>
 <li>HTML语义化</li>
-<li> [HTML5的离线存储](https://segmentfault.com/a/1190000000732617)</li>
 <li>浏览器对HTML5的离线储存资源进行管理和加载</li>
 <li>cookies，sessionStorage 和 localStorage </li>
 <li>iframe缺点</li>
