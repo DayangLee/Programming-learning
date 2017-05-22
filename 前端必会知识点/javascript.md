@@ -57,3 +57,4 @@
 * [promise](https://leohxj.gitbooks.io/front-end-database/javascript-advance/promise.html)
 * [JavaScript类型转换](http://www.cnblogs.com/coco1s/p/6509141.html)
 * [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)
+* [前端常见算法的JS实现](https://segmentfault.com/a/1190000008593715)
