@@ -5,6 +5,7 @@
 * [Element和Node的区别](http://www.jianshu.com/p/695b5c78a7ca)
 * [常见的浏览器内核](http://www.cnblogs.com/fullhouse/archive/2011/12/19/2293455.html)
 * [HTML5的离线存储](https://segmentfault.com/a/1190000000732617)
+* [整理](http://hao.jser.com/archive/7/)
 <ul>
 <li>Doctype作用</li>
 <li>严格模式与混杂模式</li>
@@ -20,4 +21,4 @@
 <li>浏览器内多个标签页之间的通信实现</li>
 <li>webSocket 如何兼容低浏览器</li>
 </ul>
-* [整理](http://hao.jser.com/archive/7/)
+
