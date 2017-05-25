@@ -56,5 +56,8 @@
 * [操纵浏览器的记录](https://developer.mozilla.org/zh-CN/docs/DOM/Manipulating_the_browser_history)
 * [promise](https://leohxj.gitbooks.io/front-end-database/javascript-advance/promise.html)
 * [JavaScript类型转换](http://www.cnblogs.com/coco1s/p/6509141.html)
+* [SEO](https://zh.wikipedia.org/wiki/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E6%9C%80%E4%BD%B3%E5%8C%96)
+* [浏览器内多个标签页之间的通信实现](http://blog.csdn.net/lxcao/article/details/52777066)
+* [webSocket 如何兼容低浏览器](https://www.zhihu.com/question/20215561)
 * [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)
 * [前端常见算法的JS实现](https://segmentfault.com/a/1190000008593715)
