@@ -14,6 +14,7 @@
 * [浏览器对HTML5的离线储存资源进行管理和加载](https://segmentfault.com/a/1190000000732617)
 * [cookies，sessionStorage 和 localStorage](http://jerryzou.com/posts/cookie-and-web-storage/)
 * [iframe缺点](https://www.zhihu.com/question/20653055)
+* [从输入url到页面展示到底发生了什么](http://www.kuqin.com/shuoit/20170324/353413.html?url_type=39&object_type=webpage&pos=1)
 * [前端开发总结之——HTML](https://juejin.im/entry/58b78a4e570c35006201380c)
 * [前端开发总结之——CSS3](http://www.jianshu.com/p/f60b619aa52b)
 * [知识点整理](http://hao.jser.com/archive/7/)
