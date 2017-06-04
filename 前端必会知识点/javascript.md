@@ -61,4 +61,4 @@
 * [webSocket 如何兼容低浏览器](https://www.zhihu.com/question/20215561)
 * [JavaScript问题集锦](https://github.com/creeperyang/blog/issues/2)
 * [前端常见算法的JS实现](https://segmentfault.com/a/1190000008593715)
-* [JavaScript变成风格指南](http://www.codeceo.com/article/javascript-style-guide.html#0-qzone-1-66359-d020d2d2a4e8d1a374a433f596ad1440)
+* [JavaScript编程风格指南](http://www.codeceo.com/article/javascript-style-guide.html#0-qzone-1-66359-d020d2d2a4e8d1a374a433f596ad1440)
