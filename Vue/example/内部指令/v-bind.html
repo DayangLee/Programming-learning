@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>v-bind 实例</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+</head>
+
+<body>
+  <h1>v-bind 实例</h1>
+  <hr>
+  <div id="app">
+    <p><img v-bind:src="imageUrl" width="300px"></p>
+    <p><a :href="webUrl" target="_black">DayangLee Github</a></p>
+    <hr>
+    <div :class="className">1.绑定class</div>
+    <div :class="{classA:isOk}">2.绑定class中的判断</div>
+    <div :class="[classA,classB]">3.绑定class的数组</div>
+    <div :class="isOk?classA:classB">4.绑定class中的三元运算符</div>
+    <hr>
+    <div>
+      <input type="checkbox" id="isOk" v-model="isOk">
+      <label for="isOk">isOk={{isOk}}</label>
+    </div>
+    <hr>
+    <div :style="{color:red,fontSize:font}">5.直接绑定style</div>
+    <div :style="styleObject">6.对象绑定style</div>
+  </div>
+
+  <style>
+    .classA {
+      color: red;
+    }
+    .classB {
+      font-size: 32px;
+    }
+  </style>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        imageUrl: '../../assets/image/3.jpg',
+        webUrl: 'https://github.com/DayangLee',
+        className: 'classB',
+        isOk: true,
+        classA: 'classA',
+        classB: 'classB',
+        red: 'red',
+        font: '40px',
+        styleObject: {
+          color: 'green',
+          fontSize: '46px'
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
