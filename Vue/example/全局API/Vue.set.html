@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue.set</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+</head>
+
+<body>
+  <h1>Vue.set 全局操作</h1>
+  <hr>
+  <div id="app">
+    {{count}} + {{goods}}
+    <!--<p>
+      <button @click="">add</button>
+    </p>-->
+    <ul>
+      <li v-for="item in arr">{{item}}</li>
+    </ul>
+  </div>
+  <p>
+    <button onclick="add1()">外部添加</button>
+  </p>
+  <script type="text/javascript">
+    var outData = {
+      count: 1,
+      goods: 'book',
+      arr: ['aaa','bbb','ccc']
+    };
+    function add1(){
+      //Vue.set(outData,'count',2);
+      //app.count++;
+      //outData.count++;
+      //app.arr[1] = 'ddd'; //只改变数组时，Vue无法监听到下标
+      Vue.set(app.arr,1,'eee');
+    };
+    var app = new Vue({
+      el: '#app',
+      data: outData
+    });
+  </script>
+</body>
+
+</html>
