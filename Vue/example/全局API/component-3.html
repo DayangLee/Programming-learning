@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue component3</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+</head>
+
+<body>
+  <h1>Vue component: 组件3(父子组件)</h1>
+  <hr>
+  <div id="app">
+    <DayangLee></DayangLee>
+  </div>
+
+  <script type="text/javascript">
+    var cityTel = {
+      template: `<span style="color:green;">Baoji of Shaanxi </span>`
+    }
+    var jy = {
+      template: `<div><p style="color:red;">DayangLee from <city></city> !</p></div>`,
+      components: {
+        "city": cityTel
+      }
+    };
+
+    var app = new Vue({
+      el: '#app',
+      components: {
+        "dayanglee": jy
+      }
+    });
+  </script>
+</body>
+
+</html>
