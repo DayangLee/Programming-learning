@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Computed Option 计算选项</title>
+    <script type="text/javascript" src="../../assets/js/vue.js"></script>
+</head>
+
+<body>
+    <h1>Computed Option 计算选项</h1>
+    <hr>
+    <div id="app">
+        {{newPrice}}<br>
+        <ul>
+            <li v-for="item in reverseNews">{{item.title}} -- {{item.date}}</li>
+        </ul>
+    </div>
+
+    <script type="text/javascript">
+        var newsList = [{
+            title: '领航人民军队：习近平领导推进强军兴军纪实',
+            date: '2017/7/10'
+        }, {
+            title: '李克强在陕西考察时强调:加快改革创新 补上民生短板',
+            date: '2017/7/11'
+        }, {
+            title: '伊媒:"伊斯兰国"承认巴格达迪已死亡 将另立新头目',
+            date: '2017/7/12'
+        }, {
+            title: '给赖昌星通风报信的原福建省高官再获减刑7个月',
+            date: '2017/7/13'
+        }, ];
+        var app = new Vue({
+            el: '#app',
+            data: {
+                price: 100,
+                newsList: newsList
+            },
+            computed: {
+                newPrice: function() {
+                    return this.price = '￥' + this.price + '元';
+                },
+                reverseNews: function() {
+                    return this.newsList.reverse();
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
