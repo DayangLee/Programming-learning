@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue component1</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+</head>
+
+<body>
+  <h1>Vue component: 组件1</h1>
+  <hr>
+  <div id="app">
+    <DayangLee></DayangLee>
+    <junyang></junyang>
+  </div>
+  <div id="app2">
+    <dayanglee></dayanglee>
+    <junyang></junyang>
+  </div>
+
+  <script type="text/javascript">
+    Vue.component('dayanglee', {
+      template: `<h2 style="color:red;">我是全局dayanglee组件</h2>`
+    });
+    var app = new Vue({
+      el: '#app',
+      components:{
+        "junyang": {
+          template: `<h2 style="color:green;">我是局部junyang组件</h2>`
+        }
+      }
+    });
+    var app1 = new Vue({
+      el: '#app2'
+    })
+  </script>
+</body>
+
+</html>
