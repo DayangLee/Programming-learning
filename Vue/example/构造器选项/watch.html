@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Watch Option</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+</head>
+
+<body>
+  <h1>Watch Option</h1>
+  <hr>
+  <div id="app">
+    <p>今日温度：{{temp}} ℃</p>
+    <p>穿衣建议：{{advice}}</p>
+    <p>
+      <button @click="rise">升高温度</button>
+      <button @click="fall">降低温度</button>
+    </p>
+  </div>
+
+  <script type="text/javascript">
+    var advices = ['T恤短袖', '夹克长裙', '棉衣羽绒服'];
+    var app = new Vue({
+      el: '#app',
+      data: {
+        temp: 14,
+        advice: '夹克长裙'
+      },
+      methods: {
+        rise: function () {
+          this.temp += 5;
+        },
+        fall: function () {
+          this.temp -= 5;
+        }
+      },
+      // watch: { // 构造器内watch
+      //   temp: function (newValue, oldValue) {
+      //     //console.log(newValue);
+      //     //console.log(oldValue);
+      //     if (newValue >= 26) {
+      //       this.advice = advices[0];
+      //     } else if (newValue < 26 && newValue >= 0) {
+      //       this.advice = advices[1];
+      //     } else {
+      //       this.advice = advices[2];
+      //     }
+      //   }
+      // }
+    });
+    app.$watch('temp', function (newValue, oldValue) {  //实例属性watch监控
+      if (newValue >= 26) {
+        this.advice = advices[0];
+      } else if (newValue < 26 && newValue >= 0) {
+        this.advice = advices[1];
+      } else {
+        this.advice = advices[2];
+      }
+    })
+  </script>
+</body>
+
+</html>
