@@ -1,0 +1,15 @@
+{
+  "name": "demo3",
+  "version": "1.0.0",
+  "description": "* 加载器(loader)： loader 是对应用程序中资源文件进行转换。它们是（运行在 Node.js 中的）函数，可以将资源文件作为参数的来源，然后返回新的资源文件。",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LJY",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2"
+  }
+}

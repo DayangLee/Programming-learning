@@ -1,0 +1,1 @@
+document.write('<h1>Hello, I am main2.js!</h1>')
