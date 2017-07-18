@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>example methods</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+  <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+</head>
+
+<body>
+  <h1>example methods</h1>
+  <hr>
+  <div id="app"></div>
+  <p><button onclick="tick()">修改</button></p>
+  <p><button onclick="reload()">刷新</button></p>
+  <p><button onclick="destroy()">销毁</button></p>
+
+  <script type="text/javascript">
+    var jy = Vue.extend({
+      template: `<p>{{message}}</p>`,
+      data: function () {  // 扩展中data不能是对象，只能以匿名函数形式存在
+        return {
+          message: 'Hello, I am JY!'
+        }
+      },
+      mounted: function () {
+        console.log('mounted 被挂载！');
+      },
+      updated: function () {
+        console.log('updated 被更新！');
+      },
+      destroyed: function () {
+        console.log('destory 被销毁！');
+      }
+    });
+    var vm = new jy().$mount('#app');  //挂载方法
+    function tick() {
+      vm.message = 'Hello, I am DayangLee!';
+      vm.$nextTick(function () {  //在修改数据之后立即使用它，然后等待DOM更新。它跟全局方法 Vue.nextTick一样，不同的是回调的this自动绑定到调用它的实例上。
+        console.log('message更新完成！');
+      });
+    };
+    function reload() {
+      vm.$forceUpdate();  //迫使Vue实例重新渲染
+    };
+    function destroy() {
+      vm.$destroy();  //完全销毁一个实例
+    };
+  </script>
+</body>
+
+</html>

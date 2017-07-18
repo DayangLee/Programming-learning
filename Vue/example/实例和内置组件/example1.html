@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>example methods</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+  <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+</head>
+
+<body>
+  <h1>example methods</h1>
+  <hr>
+  <div id="app">{{message}}</div>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: 'hello world!'
+      },
+      mounted: function () {
+        $("#app").html('我是JQuery！');  // 在Vue中使用JQuery
+      },
+      methods: {
+        print: function () {
+          console.log('调用了构造器内部的print方法！');
+          console.log(this);
+        }
+      }
+    });
+    app.print();  // 在构造器外部用实例的方法去调用构造器内部的方法
+  </script>
+</body>
+
+</html>

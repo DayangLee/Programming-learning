@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>slot content extend</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+  <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+</head>
+
+<body>
+  <h1>slot content extend</h1>
+  <hr>
+  <div id="app">
+    <jy>
+      <span slot="githubSlot">{{jyData.github}}</span>
+      <span slot="netNameSlot">{{jyData.netName}}</span>
+      <span slot="skillSlot">{{jyData.skill}}</span>
+    </jy>
+  </div>
+
+  <template id="tmp">
+    <div>
+      <p>github地址：
+        <slot name="githubSlot"></slot>
+      </p>
+      <P>网名：
+        <slot name="netNameSlot"></slot>
+      </P>
+      <p>技能：
+        <slot name="skillSlot"></slot>
+      </p>
+    </div>
+  </template>
+
+  <script type="text/javascript">
+    var jy = {
+      template: '#tmp'
+    };
+    var app = new Vue({
+      el: "#app",
+      data: {
+        jyData: {
+          github: "https://github.com/DayangLee",
+          netName: 'DayangLee',
+          skill: "vue.js"
+        }
+      },
+      components: {
+        "jy": jy
+      }
+    })
+  </script>
+</body>
+
+</html>

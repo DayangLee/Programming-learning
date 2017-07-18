@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>example events</title>
+  <script type="text/javascript" src="../../assets/js/vue.js"></script>
+  <script type="text/javascript" src="../../assets/js/jquery.js"></script>
+</head>
+
+<body>
+  <h1>example events</h1>
+  <hr>
+  <div id="app">
+    <p>{{num}}</p>
+    <button @click="add">add</button>
+  </div>
+  <p><button onclick="reduce()">reduce</button></p>
+  <p><button onclick="reduceOnce()">reduceOnce</button></p>
+  <p><button onclick="off()">off</button></p>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        num: 1
+      },
+      methods: {
+        add: function () {
+          console.log('执行了add()!');
+          this.num++;
+        }
+      }
+    });
+
+    // 实例事件
+    app.$on('reduce', function () {
+      console.log('执行了reduce()!');
+      this.num--;
+    });
+    // 只使用一次的实例方法
+    app.$once('reduceOnce', function () {
+      console.log('执行了reduceOnce(),该方法只执行一次！');
+      this.num--;
+    });
+    // 关闭事件
+    function off() {
+      //移除自定义事件监听器。
+      //如果没有提供参数，则移除所有的事件监听器；
+      //如果只提供了事件，则移除该事件所有的监听器；
+      //如果同时提供了事件与回调，则只移除这个回调的监听器。
+      //app.$off('reduce'); 
+      //app.$off('reduceOnce');
+      app.$off();
+    };
+    // 外部调用外部事件
+    function reduce() {
+      app.$emit('reduce');
+    };
+    function reduceOnce() {
+      app.$emit('reduceOnce');
+    };
+  </script>
+</body>
+
+</html>
