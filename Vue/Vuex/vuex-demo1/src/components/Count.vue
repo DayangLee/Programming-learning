@@ -13,7 +13,7 @@
   
     <!-- mapState数组赋值 -->
     <h3>mapState数组赋值: {{ count }}</h3>
-
+  
     <p>
       <button @click="$store.commit('add',10)">+</button>
       <button @click="$store.commit('minus')">-</button>
@@ -25,7 +25,7 @@
 
 <script>
 import store from '@/vuex/store'
-import { mapState,mapMutations } from 'vuex'
+import { mapState, mapMutations } from 'vuex'
 export default {
   data() {
     return {
@@ -47,7 +47,7 @@ export default {
 
   // mapState数组赋值
   computed: mapState(['count']),
-  methods:mapMutations(['minus']),
+  methods: mapMutations(['minus']),
   store
 }
 </script>
