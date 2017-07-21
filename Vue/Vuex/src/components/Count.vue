@@ -17,15 +17,23 @@
     <p>
       <button @click="$store.commit('add',10)">+</button>
       <button @click="$store.commit('minus')">-</button>
+    </p>
+    <p>
       <!-- 引入mapMutations调用方法 -->
+      mapMutations调用方法：
       <button @click="minus">-</button>
+    </p>
+    <p>
+      actions异步修改：
+      <button @click="addAction">+</button>
+      <button @click="addMinus">-</button>
     </p>
   </div>
 </template>
 
 <script>
 import store from '@/vuex/store'
-import { mapState, mapMutations } from 'vuex'
+import { mapState, mapMutations, mapGetters, mapActions } from 'vuex'
 export default {
   data() {
     return {
@@ -33,8 +41,8 @@ export default {
     }
   },
 
-  // computed计算属性赋值
-  // computed: {
+  //   computed计算属性赋值
+  //   computed: {
   //   count() {
   //     return this.$store.state.count;
   //   }
@@ -45,9 +53,33 @@ export default {
   //   count2: state => state.count
   // }),
 
-  // mapState数组赋值
-  computed: mapState(['count']),
-  methods: mapMutations(['minus']),
+
+  computed: {
+    //   computed计算属性赋值
+    // count() {
+    //   return this.$store.state.count;
+    // }
+
+    // mapState对象赋值
+    // ...mapState({
+    //   count2: state => state.count
+    // })
+
+    // mapState数组赋值
+    ...mapState(['count']),
+
+    // 基本 getters 用法
+    // count() {
+    //   return this.$store.getters.count;
+    // }
+
+    // mapGetters 简化写法
+    ...mapGetters(['count'])
+  },
+  methods: {
+    ...mapMutations(['minus']),
+    ...mapActions(['addAction', 'minusAction'])
+  },
   store
 }
 </script>
