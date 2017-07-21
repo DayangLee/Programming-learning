@@ -1,11 +1,19 @@
 # ES6
 
 > Babel 将 ES5 转换为 ES6
- * npm install -g babel-cli ---- 全局安装Babel
- * npm install --save-dev babel-cli ---- 本地安装babel-cli
+ * npm install -g babel-cli ---- 全局安装 Babel
+ * npm install --save-dev babel-cli ---- 本地安装 babel-cli
  * npm install --save-dev babel-preset-es2015 ---- 本地安装babel-preset-es2015
 
  > 配置 .babelrc 文件
+```
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": []
+}
+```
 
  > Babel 转换 
  * babel src/index.js -o dist/index.js  
