@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>React Demo6</title>
+  <script src="./build/react.js"></script>
+  <script src="./build/react-dom.js"></script>
+  <script src="./build/browser.min.js"></script>
+</head>
+<body>
+  <div id="main"></div>
+  <script type="text/babel">
+    // 组件的属性可以接受任意值，字符串、对象、函数等等都可以。有时，我们需要一种机制，验证别人使用组件时，提供的参数是否符合要求。
+    // 组件类的 PropTypes 属性，就是用来验证组件实例的属性是否符合要求.
+    // 下面的 Mytitle 组件有一个 title 属性。PropTypes 告诉 React，这个 title 属性是必须的，而且它的值必须是字符串。现在，我们设置 title 属性的值是一个数值。
+    // 运行后，控制台输出一行错误信息： react.js:19287 Warning: Failed propType: Invalid prop `title` of type `number` supplied to `MyTitle`, expected `string`.
+    // 此外，getDefaultProps 方法可以用来设置组件属性的默认值。
+    var data = 123;
+    var MyTitle = React.createClass({
+      propTypes:{
+        title: React.PropTypes.string.isRequired
+      },
+      getDefaultProps: function(){
+        return {
+          body: 'Hello LJY !'
+        }
+      },
+      render: function(){
+        return <div>
+          <h1> {this.props.title} </h1>
+          <h2> {this.props.body} </h2>
+        </div>
+      }
+    });
+    ReactDOM.render(
+      <MyTitle title={data}></MyTitle>,
+      document.getElementById('main')
+    )
+  </script>
+</body>
+</html>

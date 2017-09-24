@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>React Demo3</title>
+  <script src="./build/react.js"></script>
+  <script src="./build/react-dom.js"></script>
+  <script src="./build/browser.min.js"></script>
+</head>
+<body>
+  <div id="main"></div>
+  <script type="text/babel">
+    var arr = [
+      <h1 key='1'>Hello DayangLee !</h1>,
+      <h2 key='2'>React is awesome !</h2>
+    ];
+    ReactDOM.render(
+      <div> {arr} </div>,
+      document.getElementById('main')
+    )
+    // JSX 允许直接在模板插入 JavaScript 变量。如果这个变量是一个数组，则会展开这个数组的所有成员
+  </script>
+</body>
+</html>
