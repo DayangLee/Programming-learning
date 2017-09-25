@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>React Demo12</title>
+  <script src="./build/react.js"></script>
+  <script src="./build/react-dom.js"></script>
+  <script src="./build/browser.min.js"></script>
+  <script src='./build/jquery.min.js'></script>
+</head>
+<body>
+  <div id="main"></div>
+  <script type="text/babel">
+    // 下面的代码从Github的API抓取数据，然后将Promise对象作为属性，传给RepoList组件。
+    // 如果Promise对象正在抓取数据（pending状态），组件显示"正在加载"；如果Promise对象报错（rejected状态），组件显示报错信息；如果Promise对象抓取数据成功（fulfilled状态），组件显示获取的数据。
+    var RepoGist = React.createClass({
+      getInitialState: function(){
+        return {
+
+        }
+      },
+      componentDidMount: function () {
+
+      },
+      render: function(){
+        return (
+
+        )
+      },
+    });
+    ReactDOM.render(
+      <RepoGist />,
+      document.getElementById('main')
+    )
+  </script>
+</body>
+</html>
